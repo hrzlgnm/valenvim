@@ -1,4 +1,8 @@
-require("cloak").setup({
+local ok, cloak = pcall(require, 'cloak')
+if not ok then
+  return
+end
+cloak.setup({
   enabled = true,
   cloak_character = "*",
   -- The applied highlight group (colors) on the cloaking, see `:h highlight`.

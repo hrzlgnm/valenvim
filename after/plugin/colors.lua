@@ -1,3 +1,7 @@
+local ok, _ = pcall(require, 'catppuccin')
+if not ok then
+    return
+end
 function ColorMyPencils(color)
 	color = color or "catppuccin"
 	vim.cmd.colorscheme(color)
