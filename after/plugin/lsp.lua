@@ -12,6 +12,7 @@ lsp.ensure_installed({
   'clangd',
   'pyright',
   'neocmake',
+  'jsonls'
 })
 
 -- Fix Undefined global 'vim'
