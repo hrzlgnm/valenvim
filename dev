@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-rm -rf ~/.config/nvim
-ln -s $(pwd) ~/.config/nvim
+rm -rf ~/.config/ValenVim
+ln -s $(pwd) ~/.config/ValenVim
+
 
