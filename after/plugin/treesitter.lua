@@ -3,8 +3,8 @@ if not ok then
     return
 end
 nvtsc.setup {
-    -- A list of parser names, or "all"
-    ensure_installed = { "vimdoc", "javascript", "typescript", "c", "cpp", "lua", "rust", "python" },
+    -- A list of parser names, or 'all'
+    ensure_installed = { 'vimdoc', 'javascript', 'typescript', 'c', 'cpp', 'lua', 'rust', 'python' },
 
     -- Install parsers synchronously (only applied to `ensure_installed`)
     sync_install = false,
